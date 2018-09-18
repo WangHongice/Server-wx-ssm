@@ -7,10 +7,10 @@ spring:
 server:
   port: 80
 WX:
-  APPID: 
-  APPSECERET: 
-  TOKEN: VEvG4Fls4xAux
-  LANG: zh_CN
+  APPID: #微信服务号appId
+  APPSECERET: #微信服务号Appsercter
+  TOKEN: VEvG4Fls4xAux #自己设置的token用于微信验证接入时token
+  LANG: zh_CN #获取用户时的语言,参看微信官方文档
   EXPIRESECONDS: 2592000 #二维码过期时间
   CORPID:  #企业号id
   SECRECT:  #企业号应用SECRECT
